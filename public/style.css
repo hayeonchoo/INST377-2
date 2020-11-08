@@ -1,0 +1,9 @@
+/*CSS*/
+body {
+    background: #eee;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
