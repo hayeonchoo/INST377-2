@@ -7,3 +7,17 @@ body {
     display: flex;
     flex-direction: column;
   }
+body{
+    font-size: 1.5em;
+    line-height:1.6;
+    font: weight 400;
+    font-family:'Open Sans', sans-serif;;
+    color:black;
+    margin:0px;
+    display:block;
+}
+.one-half column{
+    margin-top: 10%;
+    bottom:10%;
+
+}
