@@ -25,6 +25,10 @@ h1 {
     margin-left: 10px;
 }
 
+span.category, span.address, span.city, span.zip {
+  font-size: 15px;
+}
+
 input.search {
   margin-left: 10px;
 }
@@ -36,7 +40,7 @@ h2 {
 .suggestions li{
   background:white;
   list-style-type:none;
-  
+  border: 1px solid black;
   padding:20px;
   display:flex;
   flex-direction: column;
@@ -48,7 +52,7 @@ h2 {
 
   text-transform: capitalize;
   list-style-position: inside;
-  
+  background-image:linear-gradient(to right,#feffb2,#ebe5a5,#fad573 );
 
 }
   
