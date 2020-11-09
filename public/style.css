@@ -35,6 +35,7 @@ h2 {
   border: 1px solid white;
   padding:20px;
   display:flex;
+  flex-direction: column;
   transition:background 0.2s;
   text-transform: capitalize;
   list-style-position: inside;
