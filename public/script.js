@@ -20,11 +20,15 @@ function displayMatches() {
         const rName = place.name.replace(regex, `<span class="h1">${this.value}</span>`);
         const rCategory = place.category.replace(regex, `<span class="h2">${this.value}</span>`)
         const rAddress = place.address_line_1.replace(regex, `<span class="h2">${this.value}</span>`)
+        const rCity = place.city.replace(regex, `<span class="h2">${this.value}</span>`)
+        const rZip = place.zip.replace(regex, `<span class="h2">${this.value}</span>`)
         return `
             <li>
             <span class = "name">${rName}</span><br>
             <span class = "category">${rCategory}</span><br>
-            <span class = "address">${(rAddress).italics()}</span>
+            <span class = "address">${(rAddress).italics()}</span><br>
+            <span class = "address">${(rCity).italics()}</span><br>
+            <span class = "address">${(rZip).italics()}</span>
             </li>
         
         `;
