@@ -37,6 +37,7 @@ h2 {
   display:flex;
   transition:background 0.2s;
   text-transform: capitalize;
+  list-style-position: inside;
 
 }
 .suggestions{
