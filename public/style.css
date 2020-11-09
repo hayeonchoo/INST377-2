@@ -32,10 +32,11 @@ h2 {
 .suggestions li{
   background:white;
   list-style-type:none;
-  border: 1px solid white;
+  border: 1px solid black;
   padding:20px;
   display:flex;
   flex-direction: column;
+  justify-content: flex-start;
   transition:background 0.2s;
   text-transform: capitalize;
   list-style-position: inside;
