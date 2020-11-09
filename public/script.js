@@ -24,10 +24,10 @@ function displayMatches() {
         const rZip = place.zip.replace(regex, `<span class="h2">${this.value}</span>`)
         return `
             <li>
-            <span class = "name">${rName}</span><br>
-            <span class = "category">${rCategory}</span><br>
-            <span class = "address">${(rAddress).italics()}</span><br>
-            <span class = "address">${(rCity).italics()}</span><br>
+            <span class = "name">${rName}</span>
+            <span class = "category">${rCategory}</span>
+            <span class = "address">${(rAddress).italics()}</span>
+            <span class = "address">${(rCity).italics()}</span>
             <span class = "address">${(rZip).italics()}</span>
             </li>
         
