@@ -13,15 +13,11 @@ function findMatches(wordToMatch, restaurants) {
     });
 }
 
-function numberWithCommas(x){
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-}
-
 function displayMatches() {
     const matchArray = findMatches(this.value, restaurants);
     const html = matchArray.map(place => {
         const regex = new RegExp(this.value, 'gi');
-        const rName = place.name.replace(regex, '<span class="h1">${this.value}</span>');
+        const rName = place.name.replace(regex, `<span class="h1">${this.value}</span>`);
 
         return `
             <li>
