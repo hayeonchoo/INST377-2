@@ -26,7 +26,7 @@ function displayMatches() {
     suggestions.innerHTML = html;
 }
 
-const serachInput = document.querySelector('.search');
+const serachInput = document.querySelector('input[name="search"]');
 const suggestions = document.querySelector('.suggestions');
 
 searchInput.addEventListener('change', displayMatches);
