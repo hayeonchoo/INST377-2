@@ -33,10 +33,6 @@ function displayMatches() {
 }
 
 const searchInput = document.querySelector('.search');
-<<<<<<< HEAD
-const suggestions = document.querySelector('.suggestions');
-=======
->>>>>>> dc10d3167efb978db758157dcde1ef21222e5084
 
 searchInput.addEventListener('change', displayMatches);
 searchInput.addEventListener('keyup', displayMatches);
