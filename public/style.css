@@ -25,7 +25,7 @@ h1 {
 
 }
 
-h2 {
+span.address, span.city, span.zip, span.category {
   font-size: 15px;
 }
 

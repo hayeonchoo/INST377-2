@@ -27,8 +27,8 @@ function displayMatches() {
             <span class = "name">${rName}</span>
             <span class = "category">${rCategory}</span>
             <span class = "address">${(rAddress).italics()}</span>
-            <span class = "address">${(rCity).italics()}</span>
-            <span class = "address">${(rZip).italics()}</span>
+            <span class = "city">${(rCity).italics()}</span>
+            <span class = "zip">${(rZip).italics()}</span>
             </li>
         
         `;
