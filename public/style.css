@@ -5,7 +5,7 @@
     flex-direction: column;
   }
 body{
-    background: indigo;
+    background: rgb(209, 199, 218);
     font-size: 1.5em;
     line-height:1.6;
     font: weight 400;
@@ -17,6 +17,7 @@ body{
 .one-half column{
     margin-top: 10%;
     bottom:10%;
+    margin-left:10%;
 
 }
 h1 {
