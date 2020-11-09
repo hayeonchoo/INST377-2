@@ -22,7 +22,11 @@ body{
 }
 h1 {
     font-family:'Open Sans', sans-serif;
+    margin-left: 10px;
+}
 
+input.search {
+  margin-left: 10px;
 }
 
 h2 {
