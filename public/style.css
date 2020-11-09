@@ -11,7 +11,7 @@ body{
     font: weight 400;
     font-family:'Open Sans', sans-serif;
     color:black;
-    margin:30px;
+    margin:0px;
     display:block;
 }
 .one-half column{
@@ -23,4 +23,14 @@ body{
 h1 {
     font-family:'Open Sans', sans-serif;
 
+}
+
+.suggestions li{
+  background:white;
+  list-style:none;
+  border-bottom: 1px solid;
+  padding:20px;
+  display:flex;
+  justify-content:space-between;
+  
 }
