@@ -16,11 +16,21 @@ body{
 }
 .one-half column{
     margin-top: 10%;
-    bottom:10%;
+    margin-bottom:10%;
     margin-left:10%;
 
 }
 h1 {
     font-family:'Open Sans', sans-serif;
 
+}
+
+.suggestions li{
+  background:white;
+  list-style:none;
+  border-bottom: 1px solid;
+  padding:20px;
+  display:flex;
+  justify-content:space-between;
+  
 }
