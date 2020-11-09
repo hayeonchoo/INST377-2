@@ -31,7 +31,7 @@ h2 {
 
 .suggestions li{
   background:white;
-  list-style:none;
+  list-style-type:none;
   border: 1px solid white;
   padding:20px;
   display:flex;
