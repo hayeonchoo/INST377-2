@@ -43,9 +43,9 @@ h2 {
   justify-content: flex-start;
   align-items: flex-start;
   padding-bottom: 10px;
-
   text-transform: capitalize;
   list-style-position: inside;
+  background-image:linear-gradient(to right,#feffb2,#ebe5a5,#fad573 );
 
 }
 .suggestions{
