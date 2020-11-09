@@ -9,7 +9,7 @@ fetch(endpoint)
 function findMatches(wordToMatch, restaurants) {
     return restaurants.filter(place => {
         const regex = new RegExp(wordToMatch, 'gi');
-        return place.zip.match(regex) || place.catgory.match(regex) || place.name.match(regex)
+        return place.zip.match(regex) || place.category.match(regex) || place.name.match(regex)
     });
 }
 
