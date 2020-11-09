@@ -4,29 +4,36 @@ const restaurants = [];
 
 fetch(endpoint)
     .then(blob => blob.json())
-    .then(data => restaurants.push(...data))
+    .then(data => restaurants.push(...data));
 
 function findMatches(wordToMatch, restaurants) {
     return restaurants.filter(place => {
         const regex = new RegExp(wordToMatch, 'gi');
-        return place.zip.match(regex) || place.catgory.match(regex)
+        return place.zip.match(regex) || place.catgory.match(regex) || place.name.match(regex)
     });
+}
+
+function numberWithCommas(x){
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
 function displayMatches() {
     const matchArray = findMatches(this.value, restaurants);
     const html = matchArray.map(place => {
+        const regex = new RegExp(this.value, 'gi');
+        const rName = place.city.replace(regex, '<span class="h1">${this.value}</span>');
+
         return `
             <li>
-            <span class = "name">${place.restaurants}></span>
+            <span class = "name">${rName}</span>
             </li>
         
         `;
-    });
+    }).join('');
     suggestions.innerHTML = html;
 }
 
-const serachInput = document.querySelector('input[name="search"]');
+const serachInput = document.querySelector('.search');
 const suggestions = document.querySelector('.suggestions');
 
 searchInput.addEventListener('change', displayMatches);
