@@ -25,7 +25,7 @@ h1 {
 
 }
 
-span.address, span.city, span.zip, span.category {
+h2 {
   font-size: 15px;
 }
 
@@ -36,9 +36,10 @@ span.address, span.city, span.zip, span.category {
   padding:20px;
   display:flex;
   flex-direction: column;
-  justify-content: flex-start
+  justify-content: flex-start;
   align-items: flex-start;
-  transition:background 0.2s;
+  padding-bottom: 10px;
+
   text-transform: capitalize;
   list-style-position: inside;
 
