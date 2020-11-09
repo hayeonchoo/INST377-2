@@ -23,7 +23,7 @@ function displayMatches() {
         const rCity = place.city.replace(regex, `<span class="h2">${this.value}</span>`)
         const rZip = place.zip.replace(regex, `<span class="h2">${this.value}</span>`)
         return `
-            <li class = "box">
+            <li>
             <span class = "name">${rName}</span>
             <span class = "category">${rCategory}</span>
             <span class = "address">${(rAddress).italics()}</span>

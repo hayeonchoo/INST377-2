@@ -42,17 +42,16 @@ h2 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  background-image:linear-gradient(#fffff1,#ebe5a5,#fad573 );
+  padding-bottom: 10px;
+  border: 1px solid black;
 
   text-transform: capitalize;
   list-style-position: inside;
   
 
 }
-.box{
-  background-image:linear-gradient(#fffff1,#ebe5a5,#fad573 );
-  padding-bottom: 10px;
-  border: 1px solid black;
-}
+  
 .suggestions{
   margin:0;
   padding:0;
