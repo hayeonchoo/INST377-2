@@ -22,8 +22,8 @@ function displayMatches() {
         const rAddress = place.address_line_1.replace(regex, `<span class="h2">${this.value}</span>`)
         return `
             <li>
-            <span class = "name">${rName}</span>
-            <span class = "category">${rCategory}</span>
+            <span class = "name">${rName}</span><br>
+            <span class = "category">${rCategory}</span><br>
             <span class = "address">${(rAddress).italics()}</span>
             </li>
         
