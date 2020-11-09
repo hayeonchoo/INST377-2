@@ -17,10 +17,13 @@ function displayMatches() {
     const matchArray = findMatches(this.value, restaurants);
     const html = matchArray.map(place => {
         return `
-            
+            <li>
+            <span class = "name">${place.restaurants}></span>
+            </li>
         
         `;
     });
+    suggestions.innerHTML = html;
 }
 
 const serachInput = document.querySelector('.search');
