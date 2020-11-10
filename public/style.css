@@ -9,7 +9,7 @@ body{
     font-size: 1.5em;
     line-height:1.6;
     font: weight 400;
-    font-family:'Open Sans', sans-serif;
+    font-family:'BenchNine', sans-serif;
     color:black;
     margin:0px;
     display:block;
@@ -21,7 +21,7 @@ body{
 
 }
 h1 {
-    font-family:'Oswald', sans-serif;
+    font-family:'BenchNine', sans-serif;
     margin-left: 10px;
 }
 
