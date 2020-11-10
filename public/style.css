@@ -37,6 +37,10 @@ h2 {
   font-size: 15px;
 }
 
+.h1 {
+  background: #c28b5d;
+}
+
 .suggestions li{
   background:white;
   list-style-type:none;
