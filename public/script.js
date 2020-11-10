@@ -33,7 +33,7 @@ function displayMatches() {
         
         `;
     }).join('');
-    suggestions.innerHTML = html;
+    suggestions.innerHTML = html.toUpperCase();
 }
 
 const searchInput = document.querySelector('.search');
